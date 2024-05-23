@@ -1,12 +1,116 @@
-@renaultgroup-grey: #E0E0E0;
-@renaultgroup-grey-light: #F7F7F7;
+:root {
+	--dsr-color-white: #fff;
+	--dsr-color-black: #000;
 
-@renaultgroup-yellow: #FCE903;
-@renaultgroup-yellow-light: #FFFCD2;
+	--dsr-color-primary: #978b7f;
+	--dsr-color-on-primary: #ffffff;
+	--dsr-color-primary-container: #dedad5;
+	--dsr-color-on-primary-container: #1f1205;
+	--dsr-color-primary-fixed: #dedad5;
+	--dsr-color-on-primary-fixed: #1f1205;
+	--dsr-color-primary-fixed-dim: #ccc5be;
+	--dsr-color-on-primary-fixed-variant: #59432d;
+	--dsr-color-secondary: #000000;
+	--dsr-color-on-secondary: #ffffff;
+	--dsr-color-secondary-container: #e6e6e6;
+	--dsr-color-on-secondary-container: #1a1a1a;
+	--dsr-color-secondary-fixed: #e6e6e6;
+	--dsr-color-on-secondary-fixed: #1a1a1a;
+	--dsr-color-secondary-fixed-dim: #cccccc;
+	--dsr-color-on-secondary-fixed-variant: #4c4c4c;
+	--dsr-color-tertiary: #2e2eca;
+	--dsr-color-on-tertiary: #ffffff;
+	--dsr-color-tertiary-container: #a5a5e8;
+	--dsr-color-on-tertiary-container: #010926;
+	--dsr-color-tertiary-fixed: #a5a5e8;
+	--dsr-color-on-tertiary-fixed: #010126;
+	--dsr-color-tertiary-fixed-dim: #8484e0;
+	--dsr-color-on-tertiary-fixed-variant: #101078;
+	--dsr-color-error: #cb4b32;
+	--dsr-color-on-error: #ffffff;
+	--dsr-color-error-container: #ebb6ab;
+	--dsr-color-on-error-container: #290902;
+	--dsr-color-warning: #ffbd69;
+	--dsr-color-on-warning: #ffffff;
+	--dsr-color-warning-container: #ffe6c4;
+	--dsr-color-on-warning-container: #331f05;
+	--dsr-color-success: #5cba63;
+	--dsr-color-on-success: #ffffff;
+	--dsr-color-success-container: #b8e3bb;
+	--dsr-color-on-success-container: #032105;
+	--dsr-color-help: #4613a5;
+	--dsr-color-on-help: #ffffff;
+	--dsr-color-help-container: #ac93d9;
+	--dsr-color-on-help-container: #0b0021;
+	--dsr-color-highlight: #66d8d0;
+	--dsr-color-on-highlight: #ffffff;
+	--dsr-color-highlight-container: #c5edea;
+	--dsr-color-on-highlight-container: #052b28;
+	--dsr-color-electric: #4b9bf5;
+	--dsr-color-on-electric: #ffffff;
+	--dsr-color-electric-container: #bfddff;
+	--dsr-color-on-electric-container: #041a33;
+	--dsr-color-outline: #807d7a;
+	--dsr-color-background: #faf9f7;
+	--dsr-color-on-background: #1a1919;
+	--dsr-color-surface: #faf9f7;
+	--dsr-color-on-surface: #1a1919;
+	--dsr-color-surface-variant: #e5e1dc;
+	--dsr-color-on-surface-variant: #4d4b49;
+	--dsr-color-inverse-surface: #333332;
+	--dsr-color-inverse-on-surface: #f2f1f0;
+	--dsr-color-inverse-primary: #ccc5be;
+	--dsr-color-shadow: #000000;
+	--dsr-color-surface-tint: #786450;
+	--dsr-color-outline-variant: #f2eee9;
+	--dsr-color-scrim: #000000;
+	--dsr-color-surface-container-highest: #e5e5e3;
+	--dsr-color-surface-container-high: #ebeae8;
+	--dsr-color-surface-container: #f0efed;
+	--dsr-color-surface-container-low: #f5f4f2;
+	--dsr-color-surface-container-lowest: #ffffff;
+	--dsr-color-surface-bright: #faf9f7;
+	--dsr-color-surface-dim: #dedddc;
+	--dsr-color-complementary-tan: #d8c4a0;
+	--dsr-color-complementary-on-tan: #ffffff;
+	--dsr-color-complementary-tan-container: #ede5d5;
+	--dsr-color-complementary-on-tan-container: #2b1e06;
+	--dsr-color-complementary-brown: #60504a;
+	--dsr-color-complementary-on-brown: #ffffff;
+	--dsr-color-complementary-brown-container: #c7b7b1;
+	--dsr-color-complementary-on-brown-container: #190a04;
+	--dsr-color-complementary-dark-green: #244f35;
+	--dsr-color-complementary-on-dark-green: #ffffff;
+	--dsr-color-complementary-dark-gree-container: #9dbfab;
+	--dsr-color-complementary-on-dark-green-container: #021208;
+	--dsr-color-complementary-dark-orange: #b7783c;
+	--dsr-color-complementary-on-dark-orange: #ffffff;
+	--dsr-color-complementary-on-dark-orange-container: #291502;
+	--dsr-color-complementary-dark-red: #632717;
+	--dsr-color-complementary-on-dark-red: #ffffff;
+	--dsr-color-complementary-dark-red-container: #c99c8f;
+	--dsr-color-complementary-on-dark-red-container: #120401;
+
+	/*
+	--dsr-color-accent: var(--dsr-color-secondary);
+	--dsr-color-text: var(--dsr-color-on-background);
+	--dsr-color-text-disabled: rgb(136, 139, 141);
+	--dsr-color-disabled: rgb(241, 241, 242);
+	--dsr-font-color: var(--dsr-color-on-background);
+	--dsr-font-color-header: var(--dsr-color-on-background);
+	--dsr-font-link-color: var(--dsr-color-on-background);
+	--dsr-font-link-hover-color: var(--dsr-color-on-background);
+	*/
+}
+
+.top-bar, .footer-bar, #menu {
+	background: var(--dsr-color-secondary);
+	color: var(--dsr-color-on-secondary);
+}
 
 .header .searchbox, #menu .search-bar {
-	border: solid .0625rem @renaultgroup-grey;
-	background-color: @renaultgroup-grey-light;
+	border: solid .0625rem var(--dsr-color-on-secondary-container);
+	background-color: var(--dsr-color-secondary-container);
 	input, button {
 		background: inherit;
 		border: none 0;
@@ -15,9 +119,47 @@
 	button:hover {
 		color: inherit;
 	}
+	
 }
+
+.header {
+	.btn-header:hover, .btn-header:focus {
+		background: var(--dsr-color-primary);
+		color: var(--dsr-color-on-primary);
+	}
+}
+
+.left-sidebar {
+	padding: 0 .5rem;
+	&.minified {
+		padding: 0;
+	}
+}
+
+ul.main-menu > li a,
+ul.sub-menu li a,
+ul.sub-menu > li.status a,
+ul.sub-menu > li.activity a {
+	background: inherit;
+	color: inherit;
+}
+
+ul.main-menu > li a:hover,
+ul.main-menu > li.active > a,
+ul.sub-menu > li.status a:hover,
+ul.sub-menu > li.activity a:hover {
+	background: var(--dsr-color-primary);
+	color: var(--dsr-color-on-primary);
+	color: inherit;
+	border-radius: .75rem;
+}
+
 .index {
 	border: none 0;
+}
+
+.search-bar {
+	background: inherit;
 }
 
 /* Bootstrap striped tables hack */
@@ -28,17 +170,17 @@
 }
 
 .list-shortcuts .item {
-	border: solid .0625px @renaultgroup-grey;
+	border: solid .0625px var(--dsr-color-secondary-container);
 	background: transparent;
 }
 
 .alert-info {
-	background-color: @renaultgroup-yellow-light;
-	border-color: @renaultgroup-yellow;
+	background-color: var(--dsr-color-complementary-tan-container);
+	border-color: var(--dsr-color-complementary-tan);
 }
 
 ul.sub-menu a.menu-sel::before {
-	background: @renaultgroup-yellow;
+	background: var(--dsr-color-complementary-dark-red);
 }
 
 /* TODO: Should not be necessary */
