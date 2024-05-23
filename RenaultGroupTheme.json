@@ -8,7 +8,7 @@
   "mdl_type": null,
   "mdl_icon": null,
   "mdl_url": "{\n    \"origin\": {\"uri\": \"https://github.com/simplicitesoftware/module-renaultgroup-theme.git\"},\n    \"type\": \"git\"\n}",
-  "mdl_comment": null
+  "mdl_comment": "This module contains a theme for **Renault Group**"
  },
  "links": [
   {

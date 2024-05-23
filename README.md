@@ -11,5 +11,5 @@
 `RenaultGroupTheme` module definition
 =====================================
 
-
+This module contains a theme for **Renault Group**
 
