@@ -1,0 +1,45 @@
+@renaultgroup-grey: #E0E0E0;
+@renaultgroup-grey-light: #F7F7F7;
+
+@renaultgroup-yellow: #FCE903;
+@renaultgroup-yellow-light: #FFFCD2;
+
+.header .searchbox, #menu .search-bar {
+	border: solid .0625rem @renaultgroup-grey;
+	background-color: @renaultgroup-grey-light;
+	input, button {
+		background: inherit;
+		border: none 0;
+		border-radius: inherit;
+	}
+	button:hover {
+		color: inherit;
+	}
+}
+.index {
+	border: none 0;
+}
+
+.table {
+	--bs-table-striped-bg: transparent;
+	--bs-table-hover-bg: transparent;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+	background-color: red;
+}
+
+.list-shortcuts .item {
+	border: solid .0625px @renaultgroup-grey;
+	background: transparent;
+}
+
+/* TODO: Should not be necessary */
+.header {
+	.main-nav-toggle {
+		&:hover {
+			color: #FFFFFF;
+		}
+	}
+}

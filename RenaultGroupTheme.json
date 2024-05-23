@@ -1,0 +1,114 @@
+{
+ "object": "Module",
+ "userkey": "RenaultGroupTheme",
+ "item": {
+  "mdl_name": "RenaultGroupTheme",
+  "mdl_prefix": null,
+  "mdl_version": "6",
+  "mdl_type": null,
+  "mdl_icon": null,
+  "mdl_url": "{\n    \"origin\": {\"uri\": \"https://github.com/simplicitesoftware/module-renaultgroup-theme.git\"},\n    \"type\": \"git\"\n}",
+  "mdl_comment": null
+ },
+ "links": [
+  {
+   "object": "Theme",
+   "label": "Themes",
+   "icon": "img/system/theme",
+   "field": "row_module_id",
+   "list": [{
+    "object": "Theme",
+    "userkey": "RenaultGroup",
+    "item": {
+     "thm_name": "RenaultGroup",
+     "thm_logo_id": {
+      "path": "files/Theme/RenaultGroup/logo.png",
+      "mime": "image/png",
+      "name": "RenaultGroup-logo-medium.png"
+     },
+     "thm_logo_invert": null,
+     "thm_logo2_id": {
+      "path": "files/Theme/RenaultGroup/logo2.png",
+      "mime": "image/png",
+      "name": "RenaultGroup-logo-256.png"
+     },
+     "thm_favicon_id": {
+      "path": "files/Theme/RenaultGroup/favicon.ico",
+      "mime": "image/vnd.microsoft.icon",
+      "name": "RenaultGroup-favicon.ico"
+     },
+     "thm_color1": "#FFFFFF",
+     "thm_color2": "#FFFFFF",
+     "thm_text2": "#000000",
+     "thm_color3": "#FFFFFF",
+     "thm_text3": "#000000",
+     "thm_base": "light",
+     "thm_css_doc": {
+      "path": "files/Theme/RenaultGroup/RenaultGroup_gen.css",
+      "mime": "text/css",
+      "name": "RenaultGroup_gen.css"
+     },
+     "thm_addon": {
+      "path": "files/Theme/RenaultGroup/addon.less",
+      "mime": "text/less",
+      "name": "addon.less"
+     },
+     "thm_searchbox": null,
+     "thm_active": "#FCE903",
+     "thm_font": "RenaultGroup",
+     "thm_font_mono": null,
+     "thm_iconset": null,
+     "thm_code_editor_theme": null,
+     "thm_html_editor_theme": "LIGHT",
+     "thm_menu_dom_c": "#FFFFFF",
+     "thm_menu_dom_t": "#000000",
+     "thm_menu_dact_c": "#000000",
+     "thm_menu_dact_t": "#FFFFFF",
+     "thm_menu_sub_c": "#FFFFFF",
+     "thm_menu_sub_t": "#000000",
+     "thm_menu_sact_c": "#000000",
+     "thm_menu_sact_t": "#FFFFFF",
+     "thm_menu_sta_c": "#FFFFFF",
+     "thm_menu_sta_t": "#000000",
+     "thm_compact": false,
+     "row_module_id__mdl_name": "RenaultGroupTheme",
+     "thm_const": {
+      "path": "files/Theme/RenaultGroup/const.less",
+      "mime": "text/less",
+      "name": "constants.less"
+     }
+    }
+   }]
+  },
+  {
+   "object": "Resource",
+   "label": "Resources",
+   "icon": "img/system/resource",
+   "field": "row_module_id",
+   "list": [{
+    "object": "Resource",
+    "userkey": "Disposition(default)~ANY~RenaultGroup",
+    "item": {
+     "res_object": {
+      "item": {"dis_code": "default"},
+      "icon": "img/system/disposition",
+      "label": "Disposition",
+      "userkeylabel": "default",
+      "object": "Disposition"
+     },
+     "res_type": "FONT",
+     "res_lang": "ANY",
+     "res_code": "RenaultGroup",
+     "res_cached": true,
+     "res_file": {
+      "path": "resources/Disposition/default/RenaultGroup.zip",
+      "mime": "application/zip",
+      "name": "RenaultGroup.zip"
+     },
+     "res_image": null,
+     "row_module_id__mdl_name": "RenaultGroupTheme"
+    }
+   }]
+  }
+ ]
+}

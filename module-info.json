@@ -1,0 +1,9 @@
+{
+    "date": "2024-05-23 17:24:54",
+    "name": "RenaultGroupTheme",
+    "format": "json",
+    "files": ["RenaultGroupTheme.json"],
+    "repository": {"origin": {"uri": "https://github.com/simplicitesoftware/module-renaultgroup-theme.git"}},
+    "version": "6",
+    "platform": "6.0.12-preview"
+}
