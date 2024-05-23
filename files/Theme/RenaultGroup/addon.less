@@ -20,19 +20,25 @@
 	border: none 0;
 }
 
+/* Bootstrap striped tables hack */
 .table {
 	--bs-table-striped-bg: transparent;
 	--bs-table-hover-bg: transparent;
-}
-
-.table-striped>tbody>tr:nth-child(odd)>td, 
-.table-striped>tbody>tr:nth-child(odd)>th {
-	background-color: red;
+	box-shadow: none;
 }
 
 .list-shortcuts .item {
 	border: solid .0625px @renaultgroup-grey;
 	background: transparent;
+}
+
+.alert-info {
+	background-color: @renaultgroup-yellow-light;
+	border-color: @renaultgroup-yellow;
+}
+
+ul.sub-menu a.menu-sel::before {
+	background: @renaultgroup-yellow;
 }
 
 /* TODO: Should not be necessary */
