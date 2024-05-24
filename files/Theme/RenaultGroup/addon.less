@@ -103,14 +103,16 @@
 	*/
 }
 
-.top-bar, .footer-bar, #menu {
+/* Header / footer */
+
+.top-bar, .footer-bar {
 	background: var(--dsr-color-secondary);
 	color: var(--dsr-color-on-secondary);
 }
 
 .header .searchbox, #menu .search-bar {
-	border: solid .0625rem var(--dsr-color-on-secondary-container);
-	background-color: var(--dsr-color-secondary-container);
+	border: solid .0625rem var(--dsr-color-on-primary-container);
+	background-color: var(--dsr-color-primary-container);
 	input, button {
 		background: inherit;
 		border: none 0;
@@ -125,15 +127,22 @@
 .header {
 	.btn-header:hover, .btn-header:focus {
 		background: var(--dsr-color-primary);
-		color: var(--dsr-color-on-primary);
+		color: var(--dsr-color-black);/*var(--dsr-color-on-primary);*/
 	}
 }
+
+/* Menu */
 
 .left-sidebar {
 	padding: 0 .5rem;
 	&.minified {
 		padding: 0;
 	}
+}
+
+#menu {
+	background: var(--dsr-color-inverse-surface);
+	color: var(--dsr-color-inverse-on-surface);
 }
 
 ul.main-menu > li a,
@@ -149,10 +158,53 @@ ul.main-menu > li.active > a,
 ul.sub-menu > li.status a:hover,
 ul.sub-menu > li.activity a:hover {
 	background: var(--dsr-color-primary);
-	color: var(--dsr-color-on-primary);
-	color: inherit;
+	color: var(--dsr-color-black);/*var(--dsr-color-on-primary);*/
 	border-radius: .75rem;
 }
+
+ul.sub-menu a.menu-sel::before {
+	background: var(--dsr-color-complementary-dark-red);
+}
+
+/* Bootstrap striped tables hack */
+
+.table {
+	--bs-table-striped-bg: transparent;
+	--bs-table-hover-bg: transparent;
+	box-shadow: none;
+	tr {
+		border-bottom: solid .0625rem var(--dsr-color-secondary-container);
+	}
+}
+
+/* Forms and lists */
+
+.objform > .card, .objlist > .card {
+    border: none 0;
+    box-shadow: none;
+	.card-header {
+		border-bottom: none 0;
+	}
+	.card-footer {
+		border-top: none 0;
+	}
+}
+
+/* Buttons */
+
+.btn {
+	border-radius: 0;
+	padding: .5rem 1rem;
+}
+
+/* Badges */
+
+ul.main-menu .badge {
+	background: #fcd53f;
+	color: var(--dsr-color-black);
+}
+
+/* Others */
 
 .index {
 	border: none 0;
@@ -160,13 +212,6 @@ ul.sub-menu > li.activity a:hover {
 
 .search-bar {
 	background: inherit;
-}
-
-/* Bootstrap striped tables hack */
-.table {
-	--bs-table-striped-bg: transparent;
-	--bs-table-hover-bg: transparent;
-	box-shadow: none;
 }
 
 .list-shortcuts .item {
@@ -179,9 +224,7 @@ ul.sub-menu > li.activity a:hover {
 	border-color: var(--dsr-color-complementary-tan);
 }
 
-ul.sub-menu a.menu-sel::before {
-	background: var(--dsr-color-complementary-dark-red);
-}
+/* TODO: badges = #fcd53f */
 
 /* TODO: Should not be necessary */
 .header {
