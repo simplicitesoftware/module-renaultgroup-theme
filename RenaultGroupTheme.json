@@ -24,18 +24,18 @@
      "thm_logo_id": {
       "path": "files/Theme/RenaultGroup/logo.png",
       "mime": "image/png",
-      "name": "RenaultGroup-logo-medium.png"
+      "name": "logo.png"
      },
      "thm_logo_invert": true,
      "thm_logo2_id": {
       "path": "files/Theme/RenaultGroup/logo2.png",
       "mime": "image/png",
-      "name": "RenaultGroup-logo-256.png"
+      "name": "logo2.png"
      },
      "thm_favicon_id": {
       "path": "files/Theme/RenaultGroup/favicon.ico",
       "mime": "image/vnd.microsoft.icon",
-      "name": "RenaultGroup-favicon.ico"
+      "name": "favicon.ico"
      },
      "thm_color1": "#FFFFFF",
      "thm_color2": null,
@@ -57,7 +57,7 @@
      "thm_active": null,
      "thm_font": "RenaultGroup",
      "thm_font_mono": null,
-     "thm_iconset": null,
+     "thm_iconset": "desyre",
      "thm_code_editor_theme": null,
      "thm_html_editor_theme": "LIGHT",
      "thm_menu_dom_c": null,
@@ -75,7 +75,7 @@
      "thm_const": {
       "path": "files/Theme/RenaultGroup/const.less",
       "mime": "text/less",
-      "name": "constants.less"
+      "name": "const.less"
      }
     }
    }]
