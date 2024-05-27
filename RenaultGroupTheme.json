@@ -57,7 +57,7 @@
      "thm_active": null,
      "thm_font": "RenaultGroup",
      "thm_font_mono": null,
-     "thm_iconset": "desyre",
+     "thm_iconset": "RenaultGroup",
      "thm_code_editor_theme": null,
      "thm_html_editor_theme": "LIGHT",
      "thm_menu_dom_c": null,
@@ -85,30 +85,56 @@
    "label": "Resources",
    "icon": "img/system/resource",
    "field": "row_module_id",
-   "list": [{
-    "object": "Resource",
-    "userkey": "Disposition(default)~ANY~RenaultGroup",
-    "item": {
-     "res_object": {
-      "item": {"dis_code": "default"},
-      "icon": "img/system/disposition",
-      "label": "Disposition",
-      "userkeylabel": "default",
-      "object": "Disposition"
-     },
-     "res_type": "FONT",
-     "res_lang": "ANY",
-     "res_code": "RenaultGroup",
-     "res_cached": true,
-     "res_file": {
-      "path": "resources/Disposition/default/RenaultGroup.zip",
-      "mime": "application/zip",
-      "name": "RenaultGroup.zip"
-     },
-     "res_image": null,
-     "row_module_id__mdl_name": "RenaultGroupTheme"
+   "list": [
+    {
+     "object": "Resource",
+     "userkey": "Disposition(default)~ANY~RenaultGroup",
+     "item": {
+      "res_object": {
+       "item": {"dis_code": "default"},
+       "icon": "img/system/disposition",
+       "label": "Disposition",
+       "userkeylabel": "default",
+       "object": "Disposition"
+      },
+      "res_type": "FONT",
+      "res_lang": "ANY",
+      "res_code": "RenaultGroup",
+      "res_cached": true,
+      "res_file": {
+       "path": "resources/Disposition/default/RenaultGroup.zip",
+       "mime": "application/zip",
+       "name": "RenaultGroup.zip"
+      },
+      "res_image": null,
+      "row_module_id__mdl_name": "RenaultGroupTheme"
+     }
+    },
+    {
+     "object": "Resource",
+     "userkey": "Disposition(default)~ANY~ICONS_RenaultGroup",
+     "item": {
+      "res_object": {
+       "item": {"dis_code": "default"},
+       "icon": "img/system/disposition",
+       "label": "Disposition",
+       "userkeylabel": "default",
+       "object": "Disposition"
+      },
+      "res_type": "SET",
+      "res_lang": "ANY",
+      "res_code": "ICONS_RenaultGroup",
+      "res_cached": false,
+      "res_file": {
+       "path": "resources/Disposition/default/ICONS_RenaultGroup.zip",
+       "mime": "application/zip",
+       "name": "RenaultGroupIcons.zip"
+      },
+      "res_image": null,
+      "row_module_id__mdl_name": "RenaultGroupTheme"
+     }
     }
-   }]
+   ]
   }
  ]
 }
