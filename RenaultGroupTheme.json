@@ -54,7 +54,7 @@
       "name": "addon.less"
      },
      "thm_searchbox": null,
-     "thm_active": null,
+     "thm_active": "#FCD53F",
      "thm_font": "RenaultGroup",
      "thm_font_mono": null,
      "thm_iconset": "RenaultGroup",
@@ -128,7 +128,7 @@
       "res_file": {
        "path": "resources/Disposition/default/ICONS_RenaultGroup.zip",
        "mime": "application/zip",
-       "name": "RenaultGroupIcons.zip"
+       "name": "ICONS_RenaultGroup.zip"
       },
       "res_image": null,
       "row_module_id__mdl_name": "RenaultGroupTheme"
