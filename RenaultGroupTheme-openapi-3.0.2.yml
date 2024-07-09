@@ -122,7 +122,7 @@ components:
       scheme: bearer
       type: http
 servers:
-- url: /api
+- url: empty/api
 openapi: 3.0.2
 paths:
   /login:
